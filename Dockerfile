@@ -5,9 +5,9 @@ WORKDIR /app
 COPY . .
 
 WORKDIR /app/web
-RUN npm install && npm run build
+RUN yarn install && yarn build
 
 WORKDIR /app/api
-RUN npm install && npm run build
+RUN yarn install && yarn build
 
-CMD ["npm", "start"]
+CMD ["yarn", "start"]
