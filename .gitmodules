@@ -1,6 +1,6 @@
 [submodule "api"]
 	path = api
-	url = https://github.com/esg-sw-2024-team4/unibank-api.git
+	url = https://github.com/esgsw2024team4/unibank-api.git
 [submodule "web"]
 	path = web
-	url = https://github.com/esg-sw-2024-team4/unibank-web.git
+	url = https://github.com/esgsw2024team4/unibank-web.git
